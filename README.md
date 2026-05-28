@@ -1,3 +1,3 @@
 # Black-Friday-ML-
-Topic of Dataset:
+Dataset topic:
 https://www.kaggle.com/datasets/noopurbhatt/retail-black-friday-sales-dataset
