@@ -4,3 +4,7 @@ Dataset topic:
 
 Presentation:
 https://docs.google.com/presentation/d/1MAkK9zxf4ZxGLfV4IlEbA1Yw4A3hiXnOsLNU3VyzSgM/edit?usp=sharing
+
+# Распределение риска выгорания
+
+<img width="771" height="485" alt="image" src="https://github.com/user-attachments/assets/c7e59d45-eb57-4e02-af0c-648ab6de42e1" />
