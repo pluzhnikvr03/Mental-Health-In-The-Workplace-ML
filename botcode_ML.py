@@ -31,11 +31,16 @@ for col in categorical_fillna:
     if col in data.columns:
         data[col] = data[col].fillna('Unknown')
 
+# Выделим целевую переменную  y  и матрицу признаков  X. 
+# Мы удалим идентификаторы (ID, названия, исполнители), так как линейная модель работает только с признаками, которые можно осмысленно перевести в числа.
 y = data['burnout_risk_score']
 
 # Удаляем таргет и текстовые идентификаторы
 drop_cols = [	'record_id',	'year', 'weekly_overtime_hours', 'annual_salary_usd', 'intention_to_leave', 'remote_work_preference', 'burnout_risk_score']
 X = data.drop(columns=drop_cols)
+
+# Посмотрим на типы признаков
+X_train.dtypes
 
 # Разобьем выборку на обучающую (train) и тестовую (test). Мы будем обучать модель на train, а проверять качество на test.
 from sklearn.model_selection import train_test_split
